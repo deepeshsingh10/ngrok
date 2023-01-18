@@ -1,5 +1,7 @@
 FROM python
 
+PLATFORM linux/arm64/v8
+
 WORKDIR /proj1
 
 COPY . /proj1/
