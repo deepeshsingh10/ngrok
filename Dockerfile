@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64/v8 python
+FROM python: latest
 
 WORKDIR /proj1
  
