@@ -1,7 +1,7 @@
-FROM python
+FROM --platform=linux/arm64/v8 python
 
 WORKDIR /proj1
-
+ 
 COPY . /proj1/
 
 EXPOSE 8501
